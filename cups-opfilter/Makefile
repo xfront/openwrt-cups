@@ -10,13 +10,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=cups-opfilter
 PKG_REALNAME:=cups-filters
-PKG_VERSION:=1.27.2
-PKG_VERSION_D:=1-27-2
+PKG_VERSION:=1.28.15
+PKG_VERSION_D:=1-28-15
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_REALNAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/OpenPrinting/cups-filters/releases/download/release-$(PKG_VERSION_D)/
-PKG_MD5SUM:=90ebcae31f2eabd802236408646b1dd9
+PKG_MD5SUM:=12125e24874d287f000ef67ba93f1039
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_REALNAME)-$(PKG_VERSION)
 TARGET_LDFLAGS+=-Wl,-rpath-link=$(STAGING_DIR)/usr/lib
 
@@ -27,7 +27,8 @@ define Package/cups-opfilter
   SUBMENU:=Printing
   SECTION:=net
   CATEGORY:=Network
-  DEPENDS:=+cups +libcups +libcupsimage +libstdcpp +libtiff +libpng +libjpeg +glib2 +libfreetype +fontconfig
+  DEPENDS:=+cups +libcups +libcupsimage +libstdcpp \
+  +libtiff +libpng +libjpeg +glib2 +libfreetype +fontconfig +liblcms2 +libqpdf
   TITLE:=Common UNIX Printing System - OpenPrinting Image Filters
 endef
 
@@ -48,7 +49,6 @@ define Build/Configure
 		--disable-ghostscript \
 		--disable-gs-ps2write \
 		--disable-foomatic \
-		--disable-lcms \
 		--disable-poppler \
 		--disable-dbus \
 		--enable-imagefilters \

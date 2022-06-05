@@ -1,0 +1,347 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jun  4 15:52:38 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = deepin
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+GATEWAY_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/gateway.vmoptions
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+WEBSTORM_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/webstorm.vmoptions
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/itfront/.Xauthority
+# environment
+GDMSESSION = deepin
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /data/opensrc/openwrt-cups
+# makefile
+SHELL = /bin/sh
+# environment
+APPCODE_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/appcode.vmoptions
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+DEEPIN_WINE_SCALE = 1.25
+# makefile
+MAKEFILE_LIST := 
+# environment
+FLUTTER_HOME = /opt/flutter
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+GO111MODULE = on
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+QT_SCREEN_SCALE_FACTORS = 1.25
+# environment
+QT_LOGGING_RULES = *.debug=false
+# environment
+WEBIDE_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/webide.vmoptions
+# environment
+CLUTTER_IM_MODULE = fcitx
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/itfront
+# environment
+GOPROXY = https://goproxy.cn
+# environment
+CHROME_EXECUTABLE = /opt/apps/cn.google.chrome/files/google-chrome
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/itfront/.local/bin:/home/itfront/local/bin:/opt/android-sdk/tools:/opt/android-sdk/platform-tools:/opt/flutter/bin:/usr/local/bin:/opt/go/bin:/opt/nodejs/bin:/home/itfront/.pub-cache/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin
+# environment
+PHPSTORM_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/phpstorm.vmoptions
+# environment
+ANDROID_NDK_HOME = /opt/android-sdk/ndk/24.0.8079956
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GOPATH = /share/.gopath
+# environment
+GOLAND_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/goland.vmoptions
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = /opt/android-sdk
+# environment
+JETBRAINSCLIENT_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/jetbrainsclient.vmoptions
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+IDEA_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/idea.vmoptions
+# environment
+DATASPELL_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/dataspell.vmoptions
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/itfront
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = deepin
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 802540
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+no_proxy = localhost,127.0.0.0/8,::1
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+ANDROID_NDK = /opt/android-sdk/ndk/24.0.8079956
+# environment
+PWD = /data/opensrc/openwrt-cups
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = Deepin
+# environment
+LD_LIBRARY_PATH = /home/itfront/local/lib:/usr/local/lib64:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/itfront
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_CACHE_HOME = /home/itfront/.cache
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+RIDER_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/rider.vmoptions
+# environment
+VSCODE_CODE_CACHE_PATH = /home/itfront/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = itfront
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+PUB_HOSTED_URL = https://pub.flutter-io.cn
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.2.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# environment
+SHLVL = 0
+# environment
+QT_QPA_PLATFORM = xcb
+# environment
+JAVA_HOME = /usr/lib/jvm/default-java
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-da0b20bf-5cae-48d8-80ac-545677615893.sock
+# environment
+XDG_SESSION_ID = 2
+# environment
+USER = itfront
+# makefile
+.DEFAULT_GOAL := 
+# environment
+XDG_CURRENT_DESKTOP = Deepin
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6c36f4c5-1.67.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+FLUTTER_STORAGE_BASE_URL = https://storage.flutter-io.cn
+# environment
+DATAGRIP_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/datagrip.vmoptions
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_DBL_CLICK_DIST = 18
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+RUBYMINE_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/rubymine.vmoptions
+# environment
+PYCHARM_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/pycharm.vmoptions
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+https_proxy = http://127.0.0.1:31181
+# environment
+XDG_CONFIG_HOME = /home/itfront/.config
+# environment
+LC_ALL = C
+# environment
+JETBRAINS_CLIENT_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/jetbrains_client.vmoptions
+# automatic
+^F = $(notdir $^)
+# environment
+XDG_DATA_HOME = /home/itfront/.local/share
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+D_DXCB_FORCE_OVERRIDE_HIDPI = 1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+http_proxy = http://127.0.0.1:31181
+# environment
+CLION_VM_OPTIONS = /share/soft/win/dev/jihuo-tool/vmoptions/clion.vmoptions
+# environment
+LANG = C
+# environment
+VSCODE_PID = 802540
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=13/153=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+ 
+# . (device 2106, inode 160661520): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 160 B / avg = 8 B
+# current buf: size = 8162 B / used = 160 B / count = 18 / avg = 8 B
+
+# strcache performance: lookups = 21 / hit rate = 14%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
+# Finished Make data base on Sat Jun  4 15:52:38 2022
+
+ 
